@@ -18,8 +18,6 @@
 .evn.development
 .env.development.local
 .env.test.local
-.env.production
-.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
