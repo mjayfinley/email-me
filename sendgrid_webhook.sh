@@ -1,7 +1,8 @@
 function localtunnel {
-    lt -s awpoefijasef -- port 5000
+    lt -s micahemailmesubdomain --port 5000
 }
+
 until localtunnel; do
-echo 'localtunnel server crashed'
+echo "localtunnel server crashed"
 sleep 2
 done
